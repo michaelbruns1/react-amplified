@@ -1,0 +1,44 @@
+/* styling for the header */
+
+.header {
+    text-align: center;
+
+
+
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+/* Path: src/Header.css */
+.header__option {
+    display: flex;
+    text-decoration: none;
+    color: #efefef
+}
+
+
+.header__optionLineOne {
+    font-size: 13px;  
+    font-weight: 800;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+
+
+}
+
+hr {
+    border: 0px solid #efefef;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
