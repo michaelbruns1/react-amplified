@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
+import AmplifyComponent from './AmplifyComponent';
+import { Button, Card } from '@aws-amplify/ui-react';
+
+import { ThemeProvider } from '@aws-amplify/ui-react';
+
+
+
 
 function App() {
   return (
+ 
+<ThemeProvider>
     <div className="App">
      
     <header className="App-header">
@@ -19,9 +28,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>    
+        
       </header>
+      <AmplifyComponent />
+       
+        
+
+      <AmplifyComponent />
     </div>
+    </ThemeProvider>
   );
 }
 
